@@ -1536,41 +1536,7 @@
             --icon-color: #C33E26;
         }
 
-        details>summary {
-            margin-bottom: 0 !important;
-            list-style: none;
-        }
-
-        details>summary::before {
-            content: '';
-            display: inline-block;
-            height: 1.3rem;
-            width: 1.3rem;
-            margin-right: 20px;
-            background-image: url("img/unnamed-file-1.png");
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-
-        details[open]>summary {
-            list-style: none;
-        }
-
-        details[open]>summary::before {
-            content: '';
-            display: inline-block;
-            height: 1.3rem;
-            width: 1.3rem;
-            margin-right: 20px;
-            background-image: url("img/unnamed-file.png");
-            background-position: center;
-        }
-
-        details>p {
-            padding-left: 50px;
-            padding-top: 2rem;
-            color: #2E5A87;
-        }
+       
 
         .wp-image-206 {
             width: 1.5rem;
@@ -2090,7 +2056,7 @@
 
 
                         <div
-                            class="wp-block-group is-content-justification-center is-layout-flex wp-container-core-group-layout-9 wp-block-group-is-layout-flex">
+                            class="wp-block-group is-content-justification-center is-layout-flex wp-container-core-group-layout-9 wp-block-group-is-layout-flex clue-wrap">
                             <div
                                 class="wp-block-group clue is-vertical is-layout-flex wp-container-core-group-layout-5 wp-block-group-is-layout-flex">
                                 <div class="wp-block-group clue-header has-black-background-color has-background is-layout-flex wp-container-core-group-layout-3 wp-block-group-is-layout-flex"
@@ -2107,28 +2073,28 @@
 
 
                                 <div class="wp-block-group clue-content has-background is-vertical is-layout-flex wp-container-core-group-layout-4 wp-block-group-is-layout-flex"
-                                    style="border-style:none;border-width:0px;background-color:#ebe0cf;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
-                                    <a href="#"
-                                        class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained"
-                                        style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;padding: 10px 3vw;width:100%;">
-                                        臺籍日本兵
-                                    </a>
-
-
-
-                                    <a href="#"
-                                        class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained"
-                                        style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;padding: 10px 3vw;width:100%;">
-                                        少年工
-                                    </a>
-
-
-
-                                    <a href="#"
-                                        class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained"
-                                        style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;padding: 10px 3vw;width:100%;">
-                                        臺籍老兵
-                                    </a>
+                                    style="background-color:#ebe0cf;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+                                    <details class="clue-story"  style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;width:100%;padding: 0;">
+                                        <summary style="cursor:pointer;">臺籍日本兵</summary>
+                                        <p>亦稱臺裔日本兵、日本籍灣兵，一般是指太平洋戰爭後期（1942年至1945年）被大日本帝國招募和徵召服役的臺灣軍人，廣義上或是指所有曾加入日本軍隊系統的台灣人。<br><br>
+                                            中日戰爭之前，日本軍事尚未擴張，雖然採用義務役徵兵制，但並未在臺灣實施，所以台灣人並無服兵役的義務。1937年中日戰爭昇高後，開始徵用台灣人以軍屬身分擔任輜重部隊，並從台灣派遣軍農夫的農業生產團，前往中國戰地支援軍隊供應食用；另外台灣人也被徵募為通譯，尤其是能說閩南語、粵語與北京官話等語言的人員，來支援中國戰地工作。<br><br>
+                                            1941年太平洋戰爭開打後，日軍人員需求驟增，除了動員徵召以軍屬名義支援作戰外，也於1942年實施「陸軍特別志願兵制度」；並對原住民招募高砂義勇隊和特別志願兵。1943年實施「海軍特別志願兵制度」。1945年1月在台灣實施徵兵制，3月成立不分男女的國民義勇隊來準備本島自衛戰鬥。<br><br>
+                                            戰後，因日本和台灣已經是兩個不同地區，導致台籍日本兵備受爭議，也為此權益與歷史定位都長期受到漠視，且補償問題亦出現很大落差。<br><br>
+                                            按日本厚生省統計資料，1937-1942年的臺籍軍屬約12萬人，軍人為8萬人，總數達20萬人，其中陣亡3萬人。 
+                                            </p>
+                                    </details>
+                                    <details class="clue-story"  style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;width:100%;padding: 0;">
+                                        <summary style="cursor:pointer;">少年工</summary>
+                                        <p>1942年6月中途島之戰日本海軍大敗，折損4艘航空母艦、285架戰機，以及資深飛行員。為提升飛機生產量，日本海軍開始籌劃建立大型飛機廠。由於日本本土青年被徵召至前線，勞動力不足，於是殖民地臺灣少年亦被列入動員目標。臺灣總督府命各級學校代募，宣稱享有公費待遇，並可半工半讀，每月領取薪俸，修業完成尚能取得同等學歷資格。<br><br>
+                                            1943-1944年間，日本將8419名屆於13至18歲之臺灣少年，分作七期送往日本神奈川的空C廠養成所培訓。3個月實習結排後，除留於本廠者，其餘約4000人派遣至日本各地之飛機造廠支援生產。<br><br>
+                                            1945年戰爭結束後，因無人接管，臺灣少年工自組「中華民國高座臺灣省民自治會」，以自治體名義，向日本政府交涉糧食配給以及歸臺事宜。於1945、1946分批回故鄉。                  
+                                            </p>
+                                    </details>
+                                    <details class="clue-story"  style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;width:100%;padding: 0;">
+                                        <summary style="cursor:pointer;">臺籍老兵</summary>
+                                        <p>第二次世界大戰後，第二次國共內戰期間，中華民國國民政府從臺灣徵去當兵並且派到中國大陸作戰的臺灣人。據統計有一萬五千名臺灣子弟兵被國民政府遣往中國大陸剿匪，多數陣亡或被俘，1949年隨國民黨政府平安撤退返台的只有四百多人，其中大多數是海軍人員。<br><br>
+                                            隨著中華民國政府遷往台灣、中華人民共和國成立，大量臺灣籍軍人滯留在中國大陸並且長期居留，成為中華人民共和國公民。直到1987年底蔣經國開放民眾赴大陸探親後，開始有人推動讓這些台籍老兵返台落葉歸根。直到1989年，台灣政府才發出第一張「返台定居」的入境證給滯留大陸的台籍老兵。據大陸「台灣老兵返鄉協進會」調查，在大陸的台籍老兵大概有1000多人，已有近900人返台定居（包括家屬應有4000多人），留在大陸生活的老兵大概100來人，但多數年事已高或已經離世了。                   </p>
+                                    </details>
                                 </div>
                             </div>
 
@@ -2151,59 +2117,65 @@
 
                                 <div class="wp-block-group clue-content has-background is-vertical is-layout-flex wp-container-core-group-layout-7 wp-block-group-is-layout-flex"
                                     style="background-color:#ebe0cf;margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
-                                    <a href="#"
-                                        class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained"
-                                        style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;padding: 10px 3vw;width:100%;">
-                                        新竹縣｜賴興煬
-                                    </a>
-
-
-
-                                    <a href="#"
-                                        class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained"
-                                        style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;padding: 10px 3vw;width:100%;">
-                                        桃園縣｜鍾謙順
-                                    </a>
-
-
-
-                                    <a href="#"
-                                        class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained"
-                                        style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;padding: 10px 3vw;width:100%;">
-                                        苗栗縣｜黃華昌
-                                    </a>
-
-
-
-                                    <a href="#"
-                                        class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained"
-                                        style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;padding: 10px 3vw;width:100%;">
-                                        苗栗縣｜曹輝樂
-                                    </a>
-
-
-
-                                    <a href="#"
-                                        class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained"
-                                        style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;padding: 10px 3vw;width:100%;">
-                                        屏東縣｜鍾壬壽
-                                    </a>
-
-
-
-                                    <a href="#"
-                                        class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained"
-                                        style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;padding: 10px 3vw;width:100%;">
-                                        苗栗縣｜陳增昌
-                                    </a>
-
-
-
-                                    <a href="#"
-                                        class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained"
-                                        style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;padding: 10px 3vw;width:100%;">
-                                        高雄縣｜許昭榮
-                                    </a>
+                                    <details class="clue-people"  style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;width:100%;padding: 0;">
+                                        <summary style="cursor:pointer;">新竹縣｜賴興煬</summary>
+                                        <p class="clue-people-life">1925年—2020年</p>
+                                        <p>新竹關西客家人，出生於1925年，1938年公學校畢業，1944年因家境貧窮想改善家計，遂入伍從軍，先在高雄左營受訓，之後隨日軍到上海，再轉至朝鮮元山港的日本海軍基地，主要負責飛機槍彈填充、拆卸及倉庫內彈藥處理。<br><br>
+                                            1945年8月15日本天皇玉音放送，宣告戰敗，賴興煬所屬部隊投降後，被蘇聯軍隊押送到西伯利亞，先後從事伐木劈材、挖煤載煤及修築鐵路路基等工作，在飢寒交迫的勞改營從事強制勞動三年半，期間兩度因病差點客死西伯利亞，憑著艱強的信念存活下來。1948年才接獲通知可以返回日本，再由日本返回臺灣。<br><br>
+                                            賴興煬是極少數有西伯利亞勞改經驗的臺灣兵，見證了日本時代臺灣客家人不同的生命經驗。
+                                            </p>
+                                    </details>
+                                    <details class="clue-people"  style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;width:100%;padding: 0;">
+                                        <summary style="cursor:pointer;">桃園縣｜鍾謙順</summary>
+                                        <p class="clue-people-life">1914年—1986年</p>
+                                        <p>桃園龍潭客家人，他的父親鍾阿妹傳道師（1865-1955）是馬偕博士第一位客家籍的門生，也是臺灣北部客家地區的傳道先軀。鍾謙順出生於1914年，1933年赴日留學，就讀期間適逢滿洲國官員來校招考技術人員，1936年往滿洲。<br><br>
+                                            日中戰爭爆發後，鍾謙順於1940年受到關東軍徵集令，受訓後被派往蘇聯邊境擔任警戒工作，其後因功升任少佐接任大隊長，是臺籍皇軍軍階最高者。1945年8月日本投降，由於臺灣人身分未被送往西伯利亞，逃往哈爾濱，1946年9月經聯合國救濟總署協助，由新京出發，輾轉至上海搭船返臺。<br><br>
+                                            二二八事件後，鍾謙順政治立場轉向支持臺灣獨立，之後接觸廖文毅家族，組織臺獨組織。之後三次遭國民黨逮捕，在綠島服役，累計27年在獄。1982年罹患腸癌，經黨外人士奔走，才提前出獄。
+                                            </p>
+                                    </details>
+                                    <details class="clue-people"  style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;width:100%;padding: 0;">
+                                        <summary style="cursor:pointer;">苗栗縣｜黃華昌</summary>
+                                        <p class="clue-people-life">1929年—</p>
+                                        <p>苗栗縣竹南鎮客家人，出生於1929年，1942年報考少年飛行兵學校被錄取，考上少年飛行兵，1944年從大津陸軍少年飛行兵學校畢業後，又升級到「熊谷陸軍飛行學校」正式接受駕機訓練，1945年2月被編入實戰部隊。是正式受過訓練的飛行兵。<br><br>
+                                            1945年日本戰敗，黃華昌輾轉流浪原爆後的長崎，1946年返臺，但很快即因高談闊論和教室中的黑板塗鴉文句而成為國民政府的思想犯，約三個月後釋放。因二二八對國民黨失望，1949年介紹加入中國共產黨。1950年因「學生工作委員會案」被捕，未開庭即判以10年重刑，移送綠島「新生訓導處」，1960年才出獄。
+                                            </p>
+                                    </details>
+                                    <details class="clue-people"  style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;width:100%;padding: 0;">
+                                        <summary style="cursor:pointer;">苗栗縣｜曹輝樂</summary>
+                                        <p class="clue-people-life">1929年—</p>
+                                        <p>苗栗縣頭份鎮，出生於1929年，14歲時即被徵召至陸軍馬尼拉航空廠從事擔任整備員；1944年11月日軍戰敗，曹輝樂即與日本軍隊脫離，躲在山洞裡；1945年7月抱病離開山區，其後輾轉到拉骨納省落腳，佯稱自己是中菲混血兒，就此在菲律賓生活下來。1950年請律師辦理菲籍，取名馬松松，並於1951年結婚生子。<br><br>
+                                            但關於自己過去，妻子兒女所知有限，因為他害怕暴露日本工員的身分，可能被捕入獄。菲律賓期間，曹輝樂曾試圖返臺，但家人已由頭份搬遷到北埔，信件石沉大海；因為他的收入不高，也不符合菲律賓政府出國觀光旅行的規定。<br><br>
+                                            直到1978年，他的三女兒在公司活動遇到臺灣人黃慶安，透過黃慶安的奔走聯繫，才於7月再次踏上臺灣土地，並於1979年正式返臺定居。
+                                            </p>
+                                    </details>
+                                    <details class="clue-people"  style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;width:100%;padding: 0;">
+                                        <summary style="cursor:pointer;">屏東縣｜鍾壬壽</summary>
+                                        <p class="clue-people-life">1902年—1979</p>
+                                        <p>屏東縣萬巒鄉人，也是六堆地區最早開庄的聚落之一。1923年，通過日本普通文官考試，成為當時臺灣僅有的14名「本島」合格者之一。1925年擔任萬巒副庄長，但於1928年辭任，轉往商界發展。<br><br>
+                                            當時六堆鄉村地區開始興起出口導向的香蕉種植業，他陪同地方庄長和農業資本家，赴日本、朝鮮及滿洲國治下的瀋陽、長春、大連，隨後赴天津、北平、青島、上海、福州等地考察遊歷，回來後全心投入香蕉貿易。<br><br>
+                                            1937年中日戰爭爆發，鍾壬壽搭船赴上海，躲避徵召，之後憑藉優異日語能力，進入南京維新政府，及後來的汪精衛政府工作，並隱藏自己身為臺灣人及日本國民的身分。開始以中國國民的身分，遊走於中日兩國政府之間。<br><br>
+                                            戰後他也成為臺灣宣揚客家族群意識的領軍人物之一，1950年代初，他參與了臺灣第一個以「客家」為名的社團，1970年代則編纂了臺灣第一本以「客家」為名的地方鄉土誌。
+                                            </p>
+                                    </details>
+                                    <details class="clue-people"  style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;width:100%;padding: 0;">
+                                        <summary style="cursor:pointer;">苗栗縣｜陳增昌</summary>
+                                        <p class="clue-people-life">1921年—2008年</p>
+                                        <p>苗栗三灣，幼時全家搬至花蓮，因為日文說寫流利，小學畢業後加在衛生所打工幫忙。18歲時日本政府廣徵軍伕到中國、南洋等地打仗，陳增昌也自願加入，前往海南島海口市，在海軍醫院服務。<br><br>
+                                            1945年日本戰敗，海南島由中國國民黨政府接管，陳增昌則被視為日本人，與其他日本軍人都被關進集中營。經過三個月調查後，國民黨政府確認陳增昌是台灣人，就把他從集中營拉到一八八師野戰醫院服務。<br><br>
+                                            1949年，國民黨政府戰敗撤退到台灣，當時海南島非常混亂，陳增昌沒有搭上撤退船班。共產黨接收海南後，陳增昌因為有醫療專長，加上調查沒有反動思想，於是被安排在海口市的衛生院當院長。1966年文革，他因曾為日本與國民黨政府軍人，被鬥爭得非常厲害。<br><br>
+                                            1987年，兩岸開放老兵返鄉探親，但當時政府規定滯留中國大陸籍老兵必須「年滿75歲以上，子女需12歲以下」才能回台探親。陳增昌於1993年獲准回臺，定居桃園市中壢，至2008年過世。
+                                            </p>
+                                    </details>
+                                    <details class="clue-people"  style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;width:100%;padding: 0;">
+                                        <summary style="cursor:pointer;">高雄縣｜許昭榮</summary>
+                                        <p class="clue-people-life">1908年—2008年</p>
+                                        <p>高雄州潮州郡枋寮庄。1943年參加第2期日本海軍「特別自願兵」，成為台籍日本兵，被分發至新竹機場，擔任「神風特攻隊」戰機地勤整備工作。<br><br>
+                                            戰後1947年，許昭榮被國民黨政權徵召為海軍「台灣技術員兵」，送往中國青島的「中央海訓團」（海軍官校前身）受訓，受訓後奉派參與蔣政權接收的34艘日本賠償艦修復工作。成為臺灣人中極少數同時受過日本和中國的海軍作戰訓練者之一。<br><br>
+                                            1955年，許昭榮派赴美國紐約，休假期間看到華文版《紐約時報》報導台灣共和國臨時議會在東京成立的消息。他透過在日本的親戚，聯絡台灣共和國臨時政府，並取得秘書長簡文介主編的《台灣獨立運動第十年》一書，在軍中傳閱。1958年事發被捕，於綠島及泰源監獄服刑10年，1968年出獄。<br><br>
+                                            1981年許昭榮赴美期間，參加聲援施明德的遊行示威，淪為政治難民，流亡海外。1992年李登輝政府解除黑名單後，許昭榮返台投入為原台籍老兵暨遺族討回公道的工作，1994年創設中華民國原國軍台籍老兵暨遺族協會。<br><br>
+                                            2008年，許昭榮在高雄「戰爭與和平紀念公園」台灣無名戰士紀念碑前引火自焚死亡，遺言抗議政府漠視四萬名餘「台灣歷代戰歿英靈」，不僅未給予台籍老兵該有的歷史地位，更不曾舉辦國家級的追思或法會弔祭，他願死守台灣唯一的戰爭與和平紀念公園，直到催生國立「台灣歷代戰歿英靈紀念碑」。
+                                            </p>
+                                    </details>
                                 </div>
                             </div>
                         </div>

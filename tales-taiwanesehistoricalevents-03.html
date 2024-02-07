@@ -1535,41 +1535,7 @@
             --icon-color: #C33E26;
         }
 
-        details>summary {
-            margin-bottom: 0 !important;
-            list-style: none;
-        }
-
-        details>summary::before {
-            content: '';
-            display: inline-block;
-            height: 1.3rem;
-            width: 1.3rem;
-            margin-right: 20px;
-            background-image: url("img/unnamed-file-1.png");
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-
-        details[open]>summary {
-            list-style: none;
-        }
-
-        details[open]>summary::before {
-            content: '';
-            display: inline-block;
-            height: 1.3rem;
-            width: 1.3rem;
-            margin-right: 20px;
-            background-image: url("img/unnamed-file.png");
-            background-position: center;
-        }
-
-        details>p {
-            padding-left: 50px;
-            padding-top: 2rem;
-            color: #2E5A87;
-        }
+       
 
         .wp-image-206 {
             width: 1.5rem;
@@ -2095,7 +2061,7 @@
 
 
                         <div
-                            class="wp-block-group is-content-justification-center is-layout-flex wp-container-core-group-layout-9 wp-block-group-is-layout-flex">
+                            class="wp-block-group is-content-justification-center is-layout-flex wp-container-core-group-layout-9 wp-block-group-is-layout-flex clue-wrap">
                             <div
                                 class="wp-block-group clue is-vertical is-layout-flex wp-container-core-group-layout-5 wp-block-group-is-layout-flex">
                                 <div class="wp-block-group clue-header has-black-background-color has-background is-layout-flex wp-container-core-group-layout-3 wp-block-group-is-layout-flex"
@@ -2112,28 +2078,32 @@
 
 
                                 <div class="wp-block-group clue-content has-background is-vertical is-layout-flex wp-container-core-group-layout-4 wp-block-group-is-layout-flex"
-                                    style="border-style:none;border-width:0px;background-color:#ebe0cf;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
-                                    <a href="#"
-                                        class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained"
-                                        style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;padding: 10px 3vw;width:100%;">
-                                        張七郎、張宗仁、張果仁父子案
-                                    </a>
-
-
-
-                                    <a href="#"
-                                        class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained"
-                                        style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;padding: 10px 3vw;width:100%;">
-                                        三青團竹東分團劉家榮案
-                                    </a>
-
-
-
-                                    <a href="#"
-                                        class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained"
-                                        style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;padding: 10px 3vw;width:100%;">
-                                        李瑞漢、李瑞峰律師案
-                                    </a>
+                                    style="background-color:#ebe0cf;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+                                    <details class="clue-story"  style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;width:100%;padding: 0;">
+                                        <summary style="cursor:pointer;">張七郎、張宗仁、張果仁父子案</summary>
+                                        <p>張七郎醫師（1888-1947）為新竹大湖口庄客家人，1915年自臺灣總督府醫學校畢業。1921年移居花蓮鳳林，開設仁壽醫院。<br><br>
+                                            1945年二戰結束後，張七郎相當歡迎新來的「祖國」。1946年當選花蓮縣縣議員、擔任議長，同年底又獲選制憲國民大會代表。1947年228事件發生後，花蓮地區成立「二二八事件處理委員會」，張七郎因病而未參加。不久後，其以高票獲選為花蓮縣縣長候選人，可能因此引起官方注意。<br><br>
+                                            1947年4月1日，因228事件而來臺鎮壓的國軍21師第5連抵達鳳林。4月4日鎮民設宴款待國軍，張七郎因病未往，由長子張宗仁醫師代為參加。張宗仁返家後不久，便有士兵前來請張宗仁前往救助，其出門後便無音訊。稍晚，三子張果仁醫師回家，士兵又闖進家中將其帶走。同時，警察、士兵闖進張七郎家中將其帶走。後經附近居民透露，當晚11時聽到6聲槍響，然後歸於沈寂。<br><br>
+                                            4月5日，張家親友分頭到處尋找3人，傍晚在鳳林郊外公墓發現張氏父子遺體。3人均以繩子反縛手背，遺體遍體鱗傷、死狀悽慘。事件中，唯有次子張依仁醫師逃過一劫。家人猜測，可能是其曾在東北行醫時曾獲蔣介石嘉獎，而被釋回。<br><br>
+                                            　　1947年6月起，張家四處向蔣介石、臺灣省政府、警備司令部等處申冤，卻僅獲高等法院檢察處批示「張七郎、張宗仁、張果仁等背叛黨國、組織暗殺團，拒捕擊斃……。」
+                                            </p>
+                                    </details>
+                                    <details class="clue-story"  style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;width:100%;padding: 0;">
+                                        <summary style="cursor:pointer;">三青團竹東分團劉家榮案</summary>
+                                        <p>劉家榮（1909-1947）出身新竹九芎林，曾就讀樹杞林公學校、新竹中學，也到日本求學。1934年起擔任芎林庄、竹東街役場書記。<br><br>
+                                            1941年起曾至「都染」本舖株式會社西部桂屋商店、武田製藥公司任職。1945年，受邀擔任臺灣水泥公司竹東廠中國北京語講師，後擔任三民主義青年團竹東分團副團長、竹東消防隊副隊長。<br><br>
+                                            1947年228事件發生後，劉家榮出面解決竹東地區的中國人被毆事件，卻被情治人員指為煽動事件的領導人，乃開始逃亡。其先後藏匿於苗栗三灣一帶山地部落、峨嵋鄉岳父家等處。3月20日下午，劉家榮因不忍岳父母受到憲兵的槍托重擊拷問，而出面就逮。之後，其被憲兵載至北埔、竹東交界處後推下車，從背處開了3槍。死後，其身上的皮鞋、鋼筆遭到洗劫。<br><br>
+                                        　　關於劉家榮在228事件中遇害的原因，家屬推測，可能是在228事件爆發後被特務盯上，或之前得罪區長而遭到報復。官方檔案則記載，當局認定三青團為「奸偽組織」，遂對參與者展開全臺大清洗。                                        
+                                            </p>
+                                    </details>
+                                    <details class="clue-story"  style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;width:100%;padding: 0;">
+                                        <summary style="cursor:pointer;">李瑞漢、李瑞峰律師案</summary>
+                                        <p>李瑞漢（1906-1947）出身今苗栗竹南，曾到日本中央大學法科留學，1930年通過司法科高考後回臺，在臺北市永樂町擔任執業律師。戰後，擔任臺北市律師公會會長。<br><br>
+                                            1947年228事件爆發後，3月初李瑞漢曾召集臺北市律師公會開會，對臺灣省行政長官陳儀提出改革意見，包括「司法獨立」、「起用本省人」。同此前後，同樣畢業自日本中央大學、在宜蘭地區擔任執業律師的胞弟李瑞峰，北上支援兄長。3月10日，兩兄弟連同友人臺中市參議員林連宗，被4名帶槍便衣和憲兵軍官用吉普車帶走，理由是「長官請李瑞漢、李瑞峰兄弟去開會」。3人自此下落不明。<br><br>
+                                            關於李氏兄弟的罪名，大溪檔案收錄陳儀3月13日去函總統蔣介石的附件「辦理人犯姓名調查表」，記載李瑞漢的罪名為「陰謀叛亂首要與強力接收法院」。這可能就是因為李瑞漢在3月初召開會議、向陳儀提出改革建議，而遭清算。<br><br>
+                                        　　事發當時，李瑞漢之妻邱己妹正把鄰居送來的魷魚煮成魷魚粥，3人並未品嘗到即被政府帶走。因此，此後每年的3月10日，包括李家在內的許多228遺族、團體都會煮食魷魚粥，以為紀念。
+                                            </p>
+                                    </details>
                                 </div>
                             </div>
 
@@ -2156,51 +2126,52 @@
 
                                 <div class="wp-block-group clue-content has-background is-vertical is-layout-flex wp-container-core-group-layout-7 wp-block-group-is-layout-flex"
                                     style="background-color:#ebe0cf;margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
-                                    <a href="#"
-                                        class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained"
-                                        style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;padding: 10px 3vw;width:100%;">
-                                        桃園｜簡國賢
-                                    </a>
-
-
-
-                                    <a href="#"
-                                        class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained"
-                                        style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;padding: 10px 3vw;width:100%;">
-                                        桃園蘆竹｜林元枝
-                                    </a>
-
-
-
-                                    <a href="#"
-                                        class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained"
-                                        style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;padding: 10px 3vw;width:100%;">
-                                        苗栗竹南｜李瑞漢
-                                    </a>
-
-
-
-                                    <a href="#"
-                                        class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained"
-                                        style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;padding: 10px 3vw;width:100%;">
-                                        花蓮鳳林｜張七郎
-                                    </a>
-
-
-
-                                    <a href="#"
-                                        class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained"
-                                        style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;padding: 10px 3vw;width:100%;">
-                                        桃園中壢｜吳鴻麒
-                                    </a>
-
-
-
-                                    <a href="#"
-                                        class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained"
-                                        style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;padding: 10px 3vw;width:100%;">
-                                        新竹芎林｜黃阿統
-                                    </a>
+                                    <details class="clue-people"  style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;width:100%;padding: 0;">
+                                        <summary style="cursor:pointer;">桃園｜簡國賢</summary>
+                                        <p class="clue-people-life">1917年2月20日—1954年4月16日</p>
+                                        <p>出身桃園，為戲劇從業者、藝術工作者。曾就讀東京大學哲學系，返臺後常為放送劇編寫日文劇本，控訴日本帝國殖民統治與臺灣人民遭受剝削。<br><br>
+                                            國民黨政府接收臺灣後，簡國賢與宋非我合作組成「聖烽演劇研究會」。1946年該研究會公開演出獨幕劇《壁》，反映戰後臺灣社會「朱門酒肉臭、路有餓死鬼」的情形，受到警察當局強迫停演。<br><br>
+                                            1947年228事件發生後，其加入臺共，並流亡至桃園、臺中一帶。1953年遭當局逮捕，以《懲治叛亂條例》第二條第一項判處「唯一死刑」。1954年4月遭到處決。
+                                            </p>
+                                    </details>
+                                    <details class="clue-people"  style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;width:100%;padding: 0;">
+                                        <summary style="cursor:pointer;">桃園蘆竹｜林元枝</summary>
+                                        <p class="clue-people-life">1909-1982</p>
+                                        <p>出身桃園蘆竹林天賜家族，台北州立第二中學校畢業。1947年228事件後對時局深感憤怒，率眾包圍南崁派出所，3日占領中壢區署宣布自治，受國民黨鎮壓後逃亡。期間，曾加入共產黨、協助成立武裝工作隊。1952年經親友苦勸自首，不久遣送綠島，被關19年，才於1970年獲釋回鄉，1982年過世。<br><br>
+                                            林元枝被捕後，其自新與自白導致許多人被捕。例如以蘆竹鄉為主的「王石頭等案」，有人因留逃亡中的林元枝吃飯，或與他見面，被判叛亂罪。另外，新竹大溪農夫莊新祿因讓林元枝留宿而遭判死刑，通霄鎮長邱乾耀以窩藏共黨罪名遭判死刑。
+                                            </p>
+                                    </details>
+                                    <details class="clue-people"  style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;width:100%;padding: 0;">
+                                        <summary style="cursor:pointer;">苗栗竹南｜李瑞漢</summary>
+                                        <p class="clue-people-life">1906-1947</p>
+                                        <p>為出身今苗栗竹南的律師，赴日留學後回臺執業，戰後擔任臺北市律師公會會長。1947年228事件爆發後，召集該公會會員開會，向陳儀提出司法獨立、起用臺籍人士等建言。<br><br>
+                                            3月10日，與同樣畢業於日本中央大學法科、回臺擔任律師的胞弟李瑞峰、臺灣省參議員林連宗，在家商議時事之際，一同遭4名便衣、制服憲兵帶走。其後不知下落。<br><br>
+                                            家人猜測其遇害原因，可能是曾提出改革意見、引起當局不悅。巧合的是，李氏兄弟擔任曾經擔任「迎婦產科」的訴訟代理人，和要塞司令部史宏熹夫人對簿公堂，並由客籍法院推事吳鴻麒審理，最後由李氏兄弟當事人勝訴。後來在228期間，史宏熹以機關槍掃射基隆民眾，吳鴻麒則亦因不明罪狀遇難。
+                                            </p>
+                                    </details>
+                                    <details class="clue-people"  style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;width:100%;padding: 0;">
+                                        <summary style="cursor:pointer;">花蓮鳳林｜張七郎</summary>
+                                        <p class="clue-people-life">1888-1947</p>
+                                        <p>出身新竹縣大湖口庄張六和家族，其父張仁壽為漢醫、設立大湖口長老教會。1921年張七郎於鳳林區開設仁壽醫院。1946年，張七郎因開辦鳳林初級中學問題與花蓮縣縣長張文成多次爭執。同年先後當選花蓮縣參議員、制憲國大代表。<br><br>
+                                            1947年228事變爆發，雖未參加二二八事件處理委員會，但可能因與官方舊怨遭忌，4月4日與長子張宗仁、三子張果仁一同被捕，經過凌虐後被秘密槍決。
+                                            </p>
+                                    </details>
+                                    <details class="clue-people"  style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;width:100%;padding: 0;">
+                                        <summary style="cursor:pointer;">桃園中壢｜吳鴻麒</summary>
+                                        <p class="clue-people-life">1899-1947</p>
+                                        <p>為桃園中壢人，日本時代曾就讀臺灣總督府國語學校、上海協和大學、日本大學法科，畢業後通過司法科高等考試，回臺在臺北擔任律師。<br><br>
+                                            1945年二戰結束後，吳鴻麒出任臺灣高等法院推事。其相當不喜陳儀政府官吏貪污馬虎的作風，嚴格處理貪污案件，因此得罪於人。<br><br>
+                                            228事件爆發後，吳鴻麒並未參加任何行動或聚會，但3月12日卻無故在高等法院開庭時被捕的當時。16日，在臺北縣七星區南港大橋下遭槍殺。
+                                            </p>
+                                    </details>
+                                    <details class="clue-people"  style="border-bottom:0.4px solid #000000;margin-top:0;margin-bottom:0;width:100%;padding: 0;">
+                                        <summary style="cursor:pointer;">新竹芎林｜黃阿統</summary>
+                                        <p class="clue-people-life">1907年12月12日—？</p>
+                                        <p>新竹芎林人，曾任淡江中學體育老師兼訓導主任。1947年發生二二八事件後，淡水中學校長宣布停課讓師生暫避紛亂，3月10日，一名叫郭曉鐘的學生在街上被國民黨軍隊槍殺，淡江中學校長陳能通牧師和黃阿統立刻將遺體運到學校體育館內的儲藏室暫放。<br><br>
+                                            隔日，國民黨軍隊突然進入校園，衝進校長宿舍強行拉走陳能通和他的父親陳旺，一名為盧園的老師聽到救命聲，得知校長被抓後離開宿舍趕去營救，但被軍人槍擊，後送院不治；黃阿統趕到後也被軍人抓走。後來陳旺被釋放，但陳能通和黃阿統則從此下落不明，一般認為已遭國民黨殺害，國民黨政府事後羅織其罪狀為「煽動學生暴亂」。<br><br>
+                                            黃阿統遇難後，他的妻子不放棄找尋他的下落，期間更被人騙走許多金錢。直到1989過世前，她也始終不相信丈夫已死，並交代子女一定要繼續找父親。
+                                            </p>
+                                    </details>
                                 </div>
                             </div>
                         </div>

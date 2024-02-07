@@ -194,7 +194,7 @@ body{
 	list-style:none;
 	justify-content:center;
 }
-.judge a{
+.judge p{
 	text-decoration:none; 
 	padding:0.4rem 0.7rem;
 	border:solid 1.25px #A84129;
@@ -205,10 +205,10 @@ body{
 	box-sizing:border-box;
 
 }
-.judge > li.active >a{ 
+.judge > li.active >p{ 
 	background-color:#A84129;
 }
-.judge > li.active > a{
+.judge > li.active > p{
 	color:#F7EED4;
 }
 .tab-inner{ 

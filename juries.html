@@ -1643,14 +1643,6 @@
 			width: 100%
 		}
 
-		.judge {
-			display: flex;
-			margin: 0;
-
-			list-style: none;
-			justify-content: center;
-		}
-
 		.judge a {
 			text-decoration: none;
 			padding: 0.4rem 0.7rem;
@@ -1663,7 +1655,6 @@
 			height: 25px;
 			line-height: 25px;
 			box-sizing: border-box;
-			margin: 0 0.8rem;
 		}
 
 		.judge>li.active>a {
@@ -1749,100 +1740,102 @@
 	<a class="skip-link show-on-focus" href="#main">
 		跳至主要內容</a>
 
-	<div class="ct-drawer-canvas" data-location="start">
-		<div id="offcanvas" class="ct-panel ct-header" data-behaviour="right-side">
-			<div class="ct-panel-inner">
-				<div class="ct-panel-actions">
-
-					<button class="ct-toggle-close" data-type="type-1" aria-label="關閉側選單" onclick="closeNev()">
-						<svg class="ct-icon" width="12" height="12" viewBox="0 0 15 15">
-							<path
-								d="M1 15a1 1 0 01-.71-.29 1 1 0 010-1.41l5.8-5.8-5.8-5.8A1 1 0 011.7.29l5.8 5.8 5.8-5.8a1 1 0 011.41 1.41l-5.8 5.8 5.8 5.8a1 1 0 01-1.41 1.41l-5.8-5.8-5.8 5.8A1 1 0 011 15z">
-							</path>
-						</svg>
-					</button>
-				</div>
-				<div class="ct-panel-content" data-device="desktop">
-					<div class="ct-panel-content-inner"></div>
-				</div>
-				<div class="ct-panel-content" data-device="mobile">
-					<div class="ct-panel-content-inner">
-						<nav class="mobile-menu" data-id="mobile-menu" data-interaction="click"
-							data-toggle-type="type-1" aria-label="滑出選單">
-							<ul id="menu-primary-1" role="menubar">
-								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-29"
-									role="none"><a href="index.html" class="ct-menu-link" role="menuitem">首頁</a></li>
-								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"
-									role="none"><a href="about.html" class="ct-menu-link" role="menuitem">關於</a></li>
-								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"
-									role="none"><a href="news.html" class="ct-menu-link" role="menuitem">最新消息</a></li>
-								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"
-									role="none"><a href="tales.html" class="ct-menu-link" role="menuitem">五個紀念主題／線索</a>
-								</li>
-								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"
-									role="none"><a href="contestguideline.html" class="ct-menu-link"
-										role="menuitem">徵件辦法／說明</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27" role="none"><a href="https://docs.google.com/forms/d/e/1FAIpQLSezmn5XSI4aoPwAUZgqwKzhRm2W0ZQnHzgHnLW6lb2m1LLkkA/viewform?usp=send_form" class="ct-menu-link" role="menuitem">報名參賽</a></li>
-								<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-17 current_page_item menu-item-37"
-									role="none"><a href="juries.html" aria-current="page" class="ct-menu-link"
-										role="menuitem">評審委員</a></li>
-								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"
-									role="none"><a href="finalists.html" class="ct-menu-link"
-										role="menuitem">入圍作品與優勝名單</a></li>
-								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"
-									role="none"><a href="faq.html" class="ct-menu-link" role="menuitem">問與答</a></li>
-							</ul>
-						</nav>
-
-
-						<div class="ct-header-socials " data-id="socials">
-
-
-							<div class="ct-social-box" data-color="custom" data-icon-size="custom"
-								data-icons-type="simple">
-
-
-
-								<a href="mailto:werememberhakka@gmail.com" data-network="email" aria-label="電子郵件"
-									target="_blank" rel="noopener">
-									<span class="ct-icon-container">
-										<svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true">
-											<path
-												d="M10,10.1L0,4.7C0.1,3.2,1.4,2,3,2h14c1.6,0,2.9,1.2,3,2.8L10,10.1z M10,11.8c-0.1,0-0.2,0-0.4-0.1L0,6.4V15c0,1.7,1.3,3,3,3h4.9h4.3H17c1.7,0,3-1.3,3-3V6.4l-9.6,5.2C10.2,11.7,10.1,11.7,10,11.8z">
-											</path>
-										</svg>
-									</span> </a>
-
-								<a href="https://www.instagram.com/werememberhakka/" data-network="instagram"
-									aria-label="Instagram" target="_blank" rel="noopener">
-									<span class="ct-icon-container">
-										<svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true">
-											<circle cx="10" cy="10" r="3.3"></circle>
-											<path
-												d="M14.2,0H5.8C2.6,0,0,2.6,0,5.8v8.3C0,17.4,2.6,20,5.8,20h8.3c3.2,0,5.8-2.6,5.8-5.8V5.8C20,2.6,17.4,0,14.2,0zM10,15c-2.8,0-5-2.2-5-5s2.2-5,5-5s5,2.2,5,5S12.8,15,10,15z M15.8,5C15.4,5,15,4.6,15,4.2s0.4-0.8,0.8-0.8s0.8,0.4,0.8,0.8S16.3,5,15.8,5z">
-											</path>
-										</svg>
-									</span> </a>
-
-								<a href="http://facebook.com/WeRememberHakka" data-network="facebook"
-									aria-label="Facebook" target="_blank" rel="noopener">
-									<span class="ct-icon-container">
-										<svg width="20px" height="20px" viewBox="0 0 20 20" aria-hidden="true">
-											<path
-												d="M20,10.1c0-5.5-4.5-10-10-10S0,4.5,0,10.1c0,5,3.7,9.1,8.4,9.9v-7H5.9v-2.9h2.5V7.9C8.4,5.4,9.9,4,12.2,4c1.1,0,2.2,0.2,2.2,0.2v2.5h-1.3c-1.2,0-1.6,0.8-1.6,1.6v1.9h2.8L13.9,13h-2.3v7C16.3,19.2,20,15.1,20,10.1z">
-											</path>
-										</svg>
-									</span> </a>
-
-
+		<div class="ct-drawer-canvas" data-location="start">
+			<div id="offcanvas" class="ct-panel ct-header" data-behaviour="right-side">
+				<div class="ct-panel-inner">
+					<div class="ct-panel-actions">
+	
+						<button class="ct-toggle-close" data-type="type-1" aria-label="關閉側選單" onclick="closeNev()">
+							<svg class="ct-icon" width="12" height="12" viewBox="0 0 15 15">
+								<path
+									d="M1 15a1 1 0 01-.71-.29 1 1 0 010-1.41l5.8-5.8-5.8-5.8A1 1 0 011.7.29l5.8 5.8 5.8-5.8a1 1 0 011.41 1.41l-5.8 5.8 5.8 5.8a1 1 0 01-1.41 1.41l-5.8-5.8-5.8 5.8A1 1 0 011 15z">
+								</path>
+							</svg>
+						</button>
+					</div>
+	
+					<div class="ct-panel-content" data-device="mobile">
+						<div class="ct-panel-content-inner">
+							<nav class="mobile-menu" data-id="mobile-menu" data-interaction="click"
+								data-toggle-type="type-1" aria-label="滑出選單">
+								<ul id="menu-primary-1" role="menubar">
+									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-29"
+										role="none"><a href="index.html" class="ct-menu-link"
+											role="menuitem">首頁</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"
+										role="none"><a href="about.html" class="ct-menu-link"
+											role="menuitem">關於</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"
+										role="none"><a href="news.html" class="ct-menu-link"
+											role="menuitem">最新消息</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"
+										role="none"><a href="tales.html" class="ct-menu-link"
+											role="menuitem">五個紀念主題／線索</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"
+										role="none"><a href="contestguideline.html"
+											class="ct-menu-link" role="menuitem">徵件辦法／說明</a></li><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27" role="none"><a href="https://docs.google.com/forms/d/e/1FAIpQLSezmn5XSI4aoPwAUZgqwKzhRm2W0ZQnHzgHnLW6lb2m1LLkkA/viewform?usp=send_form" class="ct-menu-link" role="menuitem">報名參賽</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37"
+										role="none"><a href="juries.html" class="ct-menu-link"
+											role="menuitem">評審委員</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-19 current_page_item menu-item-36"
+										role="none"><a href="finalists.html" aria-current="page"
+											class="ct-menu-link" role="menuitem">入圍作品與優勝名單</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"
+										role="none"><a href="faq.html" class="ct-menu-link"
+											role="menuitem">問與答</a></li>
+								</ul>
+							</nav>
+	
+	
+							<div class="ct-header-socials " data-id="socials">
+	
+	
+								<div class="ct-social-box" data-color="custom" data-icon-size="custom"
+									data-icons-type="simple">
+	
+	
+	
+									<a href="mailto:werememberhakka@gmail.com" data-network="email" aria-label="電子郵件"
+										target="_blank" rel="noopener">
+										<span class="ct-icon-container">
+											<svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true">
+												<path
+													d="M10,10.1L0,4.7C0.1,3.2,1.4,2,3,2h14c1.6,0,2.9,1.2,3,2.8L10,10.1z M10,11.8c-0.1,0-0.2,0-0.4-0.1L0,6.4V15c0,1.7,1.3,3,3,3h4.9h4.3H17c1.7,0,3-1.3,3-3V6.4l-9.6,5.2C10.2,11.7,10.1,11.7,10,11.8z">
+												</path>
+											</svg>
+										</span> </a>
+	
+									<a href="https://www.instagram.com/werememberhakka/" data-network="instagram"
+										aria-label="Instagram" target="_blank" rel="noopener">
+										<span class="ct-icon-container">
+											<svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true">
+												<circle cx="10" cy="10" r="3.3"></circle>
+												<path
+													d="M14.2,0H5.8C2.6,0,0,2.6,0,5.8v8.3C0,17.4,2.6,20,5.8,20h8.3c3.2,0,5.8-2.6,5.8-5.8V5.8C20,2.6,17.4,0,14.2,0zM10,15c-2.8,0-5-2.2-5-5s2.2-5,5-5s5,2.2,5,5S12.8,15,10,15z M15.8,5C15.4,5,15,4.6,15,4.2s0.4-0.8,0.8-0.8s0.8,0.4,0.8,0.8S16.3,5,15.8,5z">
+												</path>
+											</svg>
+										</span> </a>
+	
+									<a href="http://facebook.com/WeRememberHakka" data-network="facebook"
+										aria-label="Facebook" target="_blank" rel="noopener">
+										<span class="ct-icon-container">
+											<svg width="20px" height="20px" viewBox="0 0 20 20" aria-hidden="true">
+												<path
+													d="M20,10.1c0-5.5-4.5-10-10-10S0,4.5,0,10.1c0,5,3.7,9.1,8.4,9.9v-7H5.9v-2.9h2.5V7.9C8.4,5.4,9.9,4,12.2,4c1.1,0,2.2,0.2,2.2,0.2v2.5h-1.3c-1.2,0-1.6,0.8-1.6,1.6v1.9h2.8L13.9,13h-2.3v7C16.3,19.2,20,15.1,20,10.1z">
+												</path>
+											</svg>
+										</span> </a>
+	
+	
+								</div>
+	
+	
 							</div>
-
-
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 	<div id="main-container">
 		<header id="header" class="ct-header" data-id="type-1" itemscope="" itemtype="https://schema.org/WPHeader">
 			<div data-device="desktop">
@@ -1882,38 +1875,30 @@
 							</div>
 						</div>
 						<div data-column="end" data-placements="1">
-							<div data-items="primary">
-								<button data-toggle-panel="#offcanvas" class="ct-header-trigger ct-toggle "
-									data-design="simple" data-label="right" aria-label="選單" data-id="trigger">
+                            <div data-items="primary">
+                                <button data-toggle-panel="#offcanvas" class="ct-header-trigger ct-toggle "
+                                    data-design="simple" data-label="right" aria-label="選單" data-id="trigger"
+                                    onclick="openNev()">
 
-									<span class="ct-label ct-hidden-sm ct-hidden-md ct-hidden-lg">選單</span>
+                                    <span class="ct-label ct-hidden-sm ct-hidden-md ct-hidden-lg">選單</span>
 
-									<svg class="ct-icon" width="18" height="14" viewBox="0 0 18 14" aria-hidden="true"
-										data-type="type-1">
+                                    <svg class="ct-icon" width="18" height="14" viewBox="0 0 18 14" aria-hidden="true"
+                                        data-type="type-1">
 
-										<rect y="0.00" width="18" height="1.7" rx="1"></rect>
-										<rect y="6.15" width="18" height="1.7" rx="1"></rect>
-										<rect y="12.3" width="18" height="1.7" rx="1"></rect>
-									</svg>
-								</button>
-							</div>
-						</div>
+                                        <rect y="0.00" width="18" height="1.7" rx="1"></rect>
+                                        <rect y="6.15" width="18" height="1.7" rx="1"></rect>
+                                        <rect y="12.3" width="18" height="1.7" rx="1"></rect>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
 					</div>
 				</div>
 			</div>
 		</header>
 		<main id="main" class="site-main hfeed">
-
-
 			<div class="ct-container-full" data-content="normal" data-vertical-spacing="top:bottom">
-
-
-
 				<article id="post-17" class="post-17 page type-page status-publish hentry">
-
-
-
-
 					<div class="entry-content">
 
 						<script>

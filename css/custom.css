@@ -363,6 +363,12 @@ body{
 	width: 1rem;
 	margin: 0.5rem 0.7rem;
 }
+.news-thumbnail img{
+	width: 45%;
+}
+.title-news-news{
+	width: 30%;
+}
 @media(max-width:1380px){
 		body{
 	background-image:none;
@@ -384,11 +390,23 @@ body{
 	.clue-wrap{
 		flex-direction: column;
 	}
+	.title-news{
+		flex-wrap: wrap;
+		width: 100%;
+	}
 }
 @media(max-width:831px){
 	.tab-inner{
 	justify-content: space-around !important;
 	}
+	.news-thumbnail{
+		flex-wrap: wrap;
+	}
+	.news-thumbnail img{
+		width: 100%;
+	}
+	
+	
 }
 @media(max-width:740px){
 	.works-thumbnail{

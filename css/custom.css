@@ -369,6 +369,12 @@ body{
 .title-news-news{
 	width: 30%;
 }
+.tale-hashtag{
+	font-size: 1.1rem;
+}
+.tale-title{
+	font-size: 1.6rem;
+}
 @media(max-width:1380px){
 		body{
 	background-image:none;
@@ -411,5 +417,11 @@ body{
 @media(max-width:740px){
 	.works-thumbnail{
 		width: 100%;
+	}
+	.tale-hashtag{
+		font-size: 1rem;
+	}
+	.tale-title{
+		font-size: 1rem;
 	}
 }
